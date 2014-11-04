@@ -1,7 +1,6 @@
 class Vector2D
   attr_accessor :x, :y
 
-
   # The unit vector (1, 0).
   def self.e
     Vector2D.new(1,0)
