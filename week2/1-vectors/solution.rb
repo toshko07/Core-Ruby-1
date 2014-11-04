@@ -67,7 +67,6 @@ class Vector2D
 end
 
 
-
 class Vector
   attr_accessor :vector
 
