@@ -19,21 +19,30 @@ class SolutionTest < Minitest::Test
     collection = Collection.new(*1..5)
 
     assert_equal [2, 3, 4, 5, 6], collection.map(&:succ)
+<<<<<<< HEAD
     assert_equal true, collection.map.is_a?(Enumerator)
+=======
+>>>>>>> upstream/master
   end
 
   def test_filter
     collection = Collection.new(*1..10)
 
     assert_equal [1, 3, 5, 7, 9], collection.filter(&:odd?)
+<<<<<<< HEAD
     assert_equal true, collection.filter.is_a?(Enumerator)
+=======
+>>>>>>> upstream/master
   end
 
   def test_reject
     collection = Collection.new(*1..10)
 
     assert_equal [1, 3, 5, 7, 9], collection.reject(&:even?)
+<<<<<<< HEAD
     assert_equal true, collection.reject.is_a?(Enumerator)
+=======
+>>>>>>> upstream/master
   end
 
   def test_reduce
